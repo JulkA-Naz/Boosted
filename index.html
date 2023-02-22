@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>BoostedUSA</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230222210430">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap&_v=20230222210430"
+		rel="stylesheet">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="65" data-scroll-show class="header">
+			<div class="header__decor">Go Fast. Go Far. Go Safe.</div>
+			<div class="header__container">
+
+				<a href="index.html" class="logo">
+					<div class="header__logo">
+						<picture>
+							<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo">
+						</picture>
+					</div>
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu" aria-label="Menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="./skateboards.html" class="menu__link">Electric
+									Skateboards</a></li>
+							<li class="menu__item"><a href="./revs.html" class="menu__link">Electric Revs</a></li>
+							<li class="menu__item"><a href="#" data-goto=".accessories" class="menu__link">Accessories</a>
+							</li>
+							<li class="menu__item"><a href="#" data-goto=".features" class="menu__link">Features</a></li>
+							<li class="menu__item"><a href="#" data-goto=".footer__top" class="menu__link">More
+									Info</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="forms">
+					<a href="#" data-popup="#popup-login" class="header__login-icone" aria-label="Login">
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M17.46 9C17.4601 7.60325 17.1142 6.22823 16.4534 4.99767C15.7927 3.76711 14.8375 2.71929 13.6732 1.94776C12.5088 1.17623 11.1716 0.704973 9.78082 0.576067C8.39003 0.447161 6.98896 0.664612 5.70267 1.20901C4.41638 1.75341 3.28489 2.60782 2.4092 3.69597C1.5335 4.78412 0.940854 6.07216 0.684148 7.44512C0.427442 8.81808 0.514667 10.2332 0.938036 11.5643C1.3614 12.8953 2.10775 14.1008 3.11044 15.0732C4.67848 16.5955 6.77548 17.4509 8.96091 17.4596C11.1463 17.4683 13.2501 16.6297 14.8302 15.12C14.8649 15.0972 14.8953 15.0686 14.9202 15.0354C15.7244 14.2494 16.3633 13.3105 16.7994 12.2741C17.2356 11.2376 17.4602 10.1245 17.46 9ZM9.00004 1.26C10.4969 1.26113 11.9612 1.69624 13.2158 2.51264C14.4704 3.32904 15.4613 4.49169 16.0686 5.85978C16.6758 7.22786 16.8734 8.74268 16.6373 10.2208C16.4012 11.6988 15.7417 13.0767 14.7384 14.1876C14.3402 13.3984 13.7827 12.7004 13.1011 12.1374C12.4195 11.5745 11.6287 11.159 10.7784 10.917C11.4835 10.5226 12.0378 9.90556 12.3545 9.16241C12.6713 8.41927 12.7326 7.59205 12.5288 6.81034C12.325 6.02863 11.8677 5.33659 11.2285 4.84263C10.5893 4.34868 9.80427 4.08071 8.99644 4.08071C8.18861 4.08071 7.4036 4.34868 6.76438 4.84263C6.12516 5.33659 5.66784 6.02863 5.46408 6.81034C5.26031 7.59205 5.3216 8.41927 5.63835 9.16241C5.9551 9.90556 6.50941 10.5226 7.21444 10.917C6.36397 11.159 5.57293 11.5747 4.89132 12.138C4.20971 12.7012 3.65234 13.3998 3.25444 14.1894C1.96375 12.7701 1.25211 10.9184 1.26004 9C1.26004 6.94722 2.0755 4.97852 3.52703 3.52699C4.97857 2.07546 6.94727 1.26 9.00004 1.26ZM9.00004 10.665C8.42023 10.665 7.85346 10.493 7.37144 10.1708C6.88942 9.84853 6.51383 9.39054 6.29219 8.85476C6.07056 8.31899 6.01284 7.72951 6.12635 7.16092C6.23986 6.59233 6.51949 6.07019 6.92985 5.66058C7.34022 5.25098 7.86287 4.97231 8.43167 4.85985C9.00046 4.74739 9.58984 4.80619 10.1252 5.02882C10.6606 5.25144 11.1179 5.62788 11.4392 6.11049C11.7606 6.5931 11.9315 7.16019 11.9304 7.74C11.9285 8.51611 11.619 9.2598 11.0697 9.80809C10.5204 10.3564 9.77615 10.6645 9.00004 10.665ZM3.80164 14.7312C4.2557 13.7335 4.98728 12.8875 5.90905 12.2942C6.83083 11.701 7.90386 11.3855 9.00004 11.3855C10.0962 11.3855 11.1693 11.701 12.091 12.2942C13.0128 12.8875 13.7444 13.7335 14.1984 14.7312C12.776 16.0245 10.9225 16.7411 9.00004 16.7411C7.07755 16.7411 5.22409 16.0245 3.80164 14.7312Z" />
+						</svg>
+					</a>
+					<a href="#" class="header__cart-icone" aria-label="Cart">
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.55902 13.3092C8.27422 13.3092 7.99581 13.3937 7.759 13.5519C7.52219 13.7101 7.33762 13.935 7.22863 14.1981C7.11964 14.4613 7.09113 14.7508 7.14669 15.0301C7.20225 15.3095 7.3394 15.5661 7.54079 15.7674C7.74217 15.9688 7.99876 16.106 8.27809 16.1615C8.55742 16.2171 8.84696 16.1886 9.11009 16.0796C9.37321 15.9706 9.59811 15.786 9.75634 15.5492C9.91457 15.3124 9.99902 15.034 9.99902 14.7492C9.99902 14.3673 9.84731 14.001 9.57726 13.731C9.3072 13.4609 8.94093 13.3092 8.55902 13.3092ZM8.55902 15.4692C8.41662 15.4692 8.27741 15.427 8.15901 15.3479C8.04061 15.2687 7.94832 15.1563 7.89383 15.0247C7.83933 14.8932 7.82507 14.7484 7.85285 14.6087C7.88064 14.4691 7.94921 14.3408 8.0499 14.2401C8.1506 14.1394 8.27889 14.0708 8.41856 14.043C8.55822 14.0153 8.70299 14.0295 8.83455 14.084C8.96612 14.1385 9.07857 14.2308 9.15768 14.3492C9.23679 14.4676 9.27902 14.6068 9.27902 14.7492C9.2776 14.9392 9.20111 15.121 9.06624 15.2548C8.93137 15.3887 8.74905 15.4638 8.55902 15.4638V15.4692Z" />
+							<path
+								d="M13.8277 13.3092C13.5429 13.3092 13.2645 13.3937 13.0277 13.5519C12.7909 13.7101 12.6063 13.935 12.4973 14.1981C12.3883 14.4613 12.3598 14.7508 12.4154 15.0301C12.4709 15.3095 12.6081 15.5661 12.8095 15.7674C13.0108 15.9688 13.2674 16.106 13.5468 16.1615C13.8261 16.2171 14.1156 16.1886 14.3788 16.0796C14.6419 15.9706 14.8668 15.786 15.025 15.5492C15.1832 15.3124 15.2677 15.034 15.2677 14.7492C15.2677 14.3673 15.116 14.001 14.8459 13.731C14.5759 13.4609 14.2096 13.3092 13.8277 13.3092ZM13.8277 15.4692C13.6853 15.4692 13.5461 15.427 13.4277 15.3479C13.3093 15.2687 13.217 15.1563 13.1625 15.0247C13.108 14.8932 13.0937 14.7484 13.1215 14.6087C13.1493 14.4691 13.2179 14.3408 13.3186 14.2401C13.4193 14.1394 13.5476 14.0708 13.6872 14.043C13.8269 14.0153 13.9717 14.0295 14.1032 14.084C14.2348 14.1385 14.3472 14.2308 14.4264 14.3492C14.5055 14.4676 14.5477 14.6068 14.5477 14.7492C14.5463 14.9392 14.4698 15.121 14.3349 15.2548C14.2 15.3887 14.0177 15.4638 13.8277 15.4638V15.4692Z" />
+							<path
+								d="M15.975 11.115L17.4312 4.6134C17.4693 4.44341 17.4686 4.26704 17.4293 4.09733C17.39 3.92763 17.3131 3.76891 17.2042 3.63292C17.0954 3.49693 16.9574 3.38714 16.8004 3.31165C16.6434 3.23617 16.4714 3.19692 16.2972 3.1968H4.94464L4.72144 2.1042C4.70461 2.02166 4.65937 1.94764 4.59359 1.89502C4.52781 1.84239 4.44566 1.8145 4.36144 1.8162H0.900039C0.804561 1.8162 0.712994 1.85413 0.645481 1.92164C0.577968 1.98916 0.540039 2.08072 0.540039 2.1762C0.540039 2.27168 0.577968 2.36325 0.645481 2.43076C0.712994 2.49827 0.804561 2.5362 0.900039 2.5362H4.07524L4.29844 3.6288L5.82844 11.1078L6.17224 12.78C6.18907 12.8625 6.23431 12.9366 6.30009 12.9892C6.36587 13.0418 6.44802 13.0697 6.53224 13.068H16.5816C16.6771 13.068 16.7687 13.0301 16.8362 12.9626C16.9037 12.895 16.9416 12.8035 16.9416 12.708C16.9416 12.6125 16.9037 12.521 16.8362 12.4534C16.7687 12.3859 16.6771 12.348 16.5816 12.348H6.81844L6.62224 11.3922H15.6222C15.7037 11.3928 15.783 11.3656 15.8471 11.3153C15.9112 11.2649 15.9563 11.1943 15.975 11.115ZM6.48004 10.6758L5.09224 3.9168H16.2972C16.3638 3.91646 16.4295 3.93117 16.4895 3.95983C16.5495 3.98849 16.6023 4.03036 16.6439 4.0823C16.6854 4.13425 16.7147 4.19492 16.7295 4.25977C16.7442 4.32462 16.7442 4.39198 16.7292 4.4568L15.3342 10.6758H6.48004Z" />
+						</svg></a>
+
+					<div class="header__cart cart">
+						<div class="cart__quantity">0</div>
+						<div class="cart-content" tabindex="0">
+							<ul class="cart-content__list" data-simplebar>
+								<!-- <li class="cart-content__item">
+								<article class="cart-content__product cart-product"><img src="img/revs/rev-1.svg" alt="rev"
+										class="cart-product__img">
+									<div class="cart-product__text">
+										<h3 class="cart-product__title">Model-1</h3>
+										<span class="cart-product__price"></span>
+									</div>
+									<button class="cart-product__delete" aria-label="Delete item">✖</button>
+								</article>
+							</li> -->
+							</ul>
+							<div class="cart-content__bottom">
+								<div class="cart-content__fullprice">
+									<span>Amount:</span>
+									<span class="fullprice">0 USD</span>
+								</div>
+								<button data-popup="#popup-ordering" class="cart-content__btn shop">To order</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="welcome">
+				<div class="welcome__container">
+					<h1 class="title welcome__title">Welcome to Boosted&nbsp;USA</h1>
+					<p class="subtitle welcome__subtitle">The Holy Grail of Electric
+						Skateboards and One
+						REVolutionary
+						Scooter</p>
+					<div class="welcome__shops">
+						<a href="./revs.html" class="shop welcome__shop">BOOSTED REVS</a>
+						<a href="./skateboards.html" class="shop welcome__shop">BOOSTED BOARDS</a>
+					</div>
+				</div>
+			</section>
+			<section class="partners">
+				<div class="partners__container">
+					<div>
+						<picture>
+							<source srcset="img/partners/partner-1.webp" type="image/webp"><img
+								src="img/partners/partner-1.png" alt="partner">
+						</picture>
+						<picture>
+							<source srcset="img/partners/partner-4.webp" type="image/webp"><img
+								src="img/partners/partner-4.png" alt="partner">
+						</picture>
+					</div>
+					<div>
+						<picture>
+							<source srcset="img/partners/partner-3.webp" type="image/webp"><img
+								src="img/partners/partner-3.png" alt="partner">
+						</picture>
+						<picture>
+							<source srcset="img/partners/partner-2.webp" type="image/webp"><img
+								src="img/partners/partner-2.png" alt="partner">
+						</picture>
+					</div>
+				</div>
+			</section>
+
+			<section class="looking">
+				<div class="looking__container">
+					<h2 class="title looking__title _anim-show _anim-items _anim-no-hide">Looking for Boosted Boards, or
+						Boosted Revs?</h2>
+					<p class="subtitle looking__subtitle _anim-show _anim-items _anim-no-hide">Boosted USA acquired all of
+						the remaining inventory directly from
+						Boosted. This means we have the electric skateboards and scooter you all love and have been looking
+						for. Get your hands on these highly sought after products while supplies last.</p>
+
+					<div class="looking__items">
+						<a href="./skateboards.html" class="looking__item">
+							<div class="item__boards">
+								<picture>
+									<source srcset="img/Boadrs.webp" type="image/webp"><img src="img/Boadrs.jpg"
+										class="item__img" alt="Go to shop">
+								</picture>
+								<div class="item__subject">
+									<img src="img/bolt.svg" alt="bolt" aria-hidden="true">
+									<p class="item__caption">Shop Boosted Boards</p>
+									<p class="item__desc">In Stock</p>
+								</div>
+							</div>
+						</a>
+						<a href="./revs.html" class="looking__item">
+							<div class="item__revs">
+								<picture>
+									<source srcset="img/Rev.webp" type="image/webp"><img src="img/Rev.jpg" class="item__img"
+										alt="Go to shop">
+								</picture>
+								<div class="item__subject"><img src="img/bolt.svg" alt="bolt" aria-hidden="true">
+									<p class="item__caption">Shop Boosted Revs</p>
+									<p class="item__desc">In Stock</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="skateboards">
+				<div class="skateboards__container">
+					<div class="skateboards__subject">
+						<h3 class="subtitle skateboards__sutitle _anim-show _anim-items _anim-no-hide">High-performance</h3>
+						<p class="title skateboards__title _anim-show _anim-items _anim-no-hide">Electric Skateboards</p>
+						<div class="text skateboards__text _anim-show _anim-items _anim-no-hide">Cruising campus, going to
+							work or getting through that long list
+							of errands has never been easier or more fun.</div>
+						<a href="./skateboards.html" class="skateboards__shop shop">Shop Now</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="shopping">
+				<div class="shopping__container">
+					<div class="revs">
+						<div class="revs__images">
+							<div class="revs__image">
+								<picture>
+									<source srcset="img/gallery-1.webp" type="image/webp"><img src="img/gallery-1.jpg"
+										alt="Revs">
+								</picture>
+							</div>
+							<div class="revs__image">
+								<picture>
+									<source srcset="img/gallery-2.webp" type="image/webp"><img src="img/gallery-2.jpg"
+										alt="Revs">
+								</picture>
+							</div>
+						</div>
+						<div class="shopping__artile _anim-items _anim-no-hide">
+							<h4 class="title artile__title _anim-show">Boosted Rev</h4>
+							<p class="text shopping__text _anim-show">There's never been an electric scooter quite like this.
+								Speed past
+								traffic at 24 mph. Go up to 22 miles on a single charge. You'll get there in no time at all.
+								Stop and go with the roll of your thumb. Its intuitive design means there’s almost no learning
+								curve.</p>
+							<a href="./revs.html" class="shop shopping__shop">Shop Now</a>
+						</div>
+					</div>
+
+					<div class="shopping__gallery">
+						<a href="./skateboards.html" class="gallery__item">
+							<div class="gallery__stealth">
+								<picture>
+									<source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.jpg"
+										class="gallery__img" alt="Go to shop">
+								</picture>
+								<div class="gallery__subject">
+									<p class="item__caption">Shop Boosted Stealth</p>
+									<p class="item__desc">In Stock</p>
+								</div>
+							</div>
+						</a>
+						<a href="./skateboards.html" class="gallery__item">
+							<div class="gallery__plus">
+								<picture>
+									<source srcset="img/gallery-4.webp" type="image/webp"><img src="img/gallery-4.jpg"
+										class="gallery__img" alt="Go to shop">
+								</picture>
+								<div class="gallery__subject">
+									<p class="item__caption">Shop Boosted Plus</p>
+									<p class="item__desc">In Stock</p>
+								</div>
+							</div>
+						</a>
+						<a href="./skateboards.html" class="gallery__item">
+							<div class="gallery__mini">
+								<picture>
+									<source srcset="img/gallery-5.webp" type="image/webp"><img src="img/gallery-5.jpg"
+										class="gallery__img" alt="Go to shop">
+								</picture>
+								<div class="gallery__subject">
+									<p class="item__caption">Shop Boosted Mini</p>
+									<p class="item__desc">In Stock</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="videos">
+						<div class="videos__item">
+							<iframe data-src="https://www.youtube.com/embed/JqyzwbpYYqc" loading="lazy"
+								aria-hidden="Video about revs"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								allowfullscreen></iframe>
+						</div>
+						<div class="videos__item"><iframe data-src="https://www.youtube.com/embed/jVYDOqfJlP8" loading="lazy"
+								aria-hidden="Video about revs"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								allowfullscreen></iframe></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="manual">
+				<div class="manual__container">
+					<div class="manual__wrap">
+						<picture>
+							<source srcset="img/manual.webp" type="image/webp"><img src="img/manual.png" alt="manual"
+								class="manual-img">
+						</picture>
+
+						<div class="manual__subject _anim-items _anim-no-hide">
+							<h6 class="title _anim-show">Download manual</h6>
+							<div class="manual__items ">
+								<div class="manual__item _anim-show">
+									<img src="img/assembly.svg" alt="assembly"><span>Assembly and
+										preparation for the trip</span>
+								</div>
+								<div class="manual__item _anim-show">
+									<img src="img/charge.svg" alt="charge"><span>How to charge
+										a scooter</span>
+								</div>
+								<div class="manual__item _anim-show">
+									<img src="img/property.svg" alt="assembly"><span>How to ride
+										properly</span>
+								</div>
+							</div>
+							<a href="./manual-scooters.pdf" download="" class="download__button shop">Download manual <img
+									src="img/download-manual.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="accessories">
+				<div class="accessories__container">
+					<h5 class="title accessories__title _anim-show _anim-items _anim-no-hide">Looking for Accessories?</h5>
+					<!-- Оболонка слайдера -->
+					<div class="accessories__swiper-wrap">
+						<div class="accessories__slider swiper">
+							<div class="accessories__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-0.webp" type="image/webp"><img
+												src="img/accessories/accessories-0.jpg" alt="Rev Tire"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Rev Tire</h3>
+										<p class="accessories__price product__price">39.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-1.webp" type="image/webp"><img
+												src="img/accessories/accessories-1.jpg" alt="Rev Tube"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Rev Tube</h3>
+										<p class="accessories__price product__price">16.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-2.webp" type="image/webp"><img
+												src="img/accessories/accessories-2.jpg" alt="Boosted Rev Stem Catch"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Rev Stem Catch</h3>
+										<p class="accessories__price product__price">19.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-3.webp" type="image/webp"><img
+												src="img/accessories/accessories-3.jpg" alt="Stomp Brake Fender"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Stomp Brake Fender</h3>
+										<p class="accessories__price product__price">105.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-4.webp" type="image/webp"><img
+												src="img/accessories/accessories-4.jpg" alt="Boosted Belt Kit"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Belt Kit</h3>
+										<p class="accessories__price product__price">25.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-5.webp" type="image/webp"><img
+												src="img/accessories/accessories-5.jpg" alt="Bearing Service Kit"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Bearing Service Kit</h3>
+										<p class="accessories__price product__price">50.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-6.webp" type="image/webp"><img
+												src="img/accessories/accessories-6.jpg" alt="Boosted Pulley / Belt Upgrade Kit"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Pulley / Belt Upgrade Kit</h3>
+										<p class="accessories__price product__price">75.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-7.webp" type="image/webp"><img
+												src="img/accessories/accessories-7.jpg" alt="Boosted Skid Plates"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Skid Plates</h3>
+										<p class="accessories__price product__price">20.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-8.webp" type="image/webp"><img
+												src="img/accessories/accessories-8.jpg" alt="Shred Lights For Boards"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Shred Lights For Boards</h3>
+										<p class="accessories__price product__price">50.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-9.webp" type="image/webp"><img
+												src="img/accessories/accessories-9.jpg" alt="Boosted Motor Kit"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Motor Kit</h3>
+										<p class="accessories__price product__price">119.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-10.webp" type="image/webp"><img
+												src="img/accessories/accessories-10.jpg" alt="Boosted Skate Tool"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Skate Tool</h3>
+										<p class="accessories__price product__price">9.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-11.webp" type="image/webp"><img
+												src="img/accessories/accessories-11.jpg" alt="Boosted - Motor Driver Cover"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted - Motor Driver Cover</h3>
+										<p class="accessories__price product__price">25.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-12.webp" type="image/webp"><img
+												src="img/accessories/accessories-12.jpg" alt="Boosted Daypack"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Daypack</h3>
+										<p class="accessories__price product__price">59.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-13.webp" type="image/webp"><img
+												src="img/accessories/accessories-13.jpg" alt="Boosted Trucks"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Trucks</h3>
+										<p class="accessories__price product__price">40.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+								<div class="accessories__slide swiper-slide">
+									<article class="item">
+										<picture>
+											<source srcset="img/accessories/accessories-14.webp" type="image/webp"><img
+												src="img/accessories/accessories-14.jpg" alt="Boosted Rev Brake Lever"
+												class="product__image accessories-img">
+										</picture>
+										<h3 class="accessories__name product__title">Boosted Rev Brake Lever</h3>
+										<p class="accessories__price product__price">75.00$</p>
+										<button class="product__btn shop">Add to cart</button>
+									</article>
+								</div>
+							</div>
+						</div><button type="button" class="swiper-button-prev accessories-swiper-button-prev"></button>
+						<button type="button" class="swiper-button-next accessories-swiper-button-next"></button>
+					</div>
+				</div>
+			</section>
+
+			<section class="features">
+				<div class="features__container">
+					<div class="features__item _anim-items _anim-no-hide">
+						<picture>
+							<source srcset="img/fast.webp" type="image/webp"><img src="img/fast.png" class=" _anim-show"
+								alt="Go Fast">
+						</picture>
+						<span class="features__feature _anim-show">Go Fast</span>
+						<p class="features__text  _anim-show">Boosted is known for its premium performance boards offering a
+							next-level experience.</p>
+					</div>
+					<div class="features__item _anim-items _anim-no-hide">
+						<picture>
+							<source srcset="img/far.webp" type="image/webp"><img src="img/far.png" class=" _anim-show"
+								alt="Go Far">
+						</picture>
+						<span class="features__feature _anim-show">Go Far</span>
+						<p class="features__text _anim-show">With optional extended battery life, you can get wherever you
+							need to go
+							reliably.</p>
+					</div>
+					<div class="features__item _anim-items _anim-no-hide">
+						<picture>
+							<source srcset="img/safe.webp" type="image/webp"><img src="img/safe.png" class=" _anim-show"
+								alt="Go Safe">
+						</picture>
+						<span class="features__feature _anim-show">Go Safe</span>
+						<p class="features__text _anim-show">Safety is a #1 feature for Boosted, always wear a helmet when
+							riding.</p>
+					</div>
+					<div class="features__item _anim-items _anim-no-hide">
+						<picture>
+							<source srcset="img/build.webp" type="image/webp"><img src="img/build.png" class=" _anim-show"
+								alt="Built to Last">
+						</picture>
+						<span class="features__feature _anim-show">Built to Last!</span>
+						<p class="features__text _anim-show">Boosted products are engineered to last for years and are
+							extremely
+							reliable.</p>
+					</div>
+					<div data-tabs data-tabs-animate class="tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="button" class="tabs__title _tab-active">
+								<picture>
+									<source srcset="img/fast.webp" type="image/webp"><img src="img/fast.png" alt="Go Fast">
+								</picture>
+								<span class="features__feature">Go Fast</span>
+							</button>
+							<button type="button" class="tabs__title">
+								<picture>
+									<source srcset="img/far.webp" type="image/webp"><img src="img/far.png" alt="Go Far">
+								</picture>
+								<span class="features__feature">Go Far</span>
+							</button>
+							<button type="button" class="tabs__title">
+								<picture>
+									<source srcset="img/safe.webp" type="image/webp"><img src="img/safe.png" alt="Go Safe">
+								</picture>
+								<span class="features__feature">Go Safe</span>
+							</button>
+							<button type="button" class="tabs__title">
+								<picture>
+									<source srcset="img/build.webp" type="image/webp"><img src="img/build.png"
+										alt="Built to Last">
+								</picture>
+								<span class="features__feature">Built to Last!</span>
+							</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body features__text">
+								Boosted is known for its premium performance boards offering a
+								next-level experience.
+							</div>
+							<div class="tabs__body features__text">
+								With optional extended battery life, you can get wherever you need to go reliably.
+							</div>
+							<div class="tabs__body features__text">
+								Safety is a #1 feature for Boosted, always wear a helmet when riding.
+							</div>
+							<div class="tabs__body features__text">
+								Boosted products are engineered to last for years and are extremely
+								reliable.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__logo">
+						<picture>
+							<source srcset="img/footer-logo.webp" type="image/webp"><img src="img/footer-logo.png" alt="logo">
+						</picture>
+					</div>
+					<div class="footer__explore _anim-items _anim-no-hide">
+						<p class="footer__capture _anim-show">Explore</p>
+						<nav class="footer__menu">
+							<ul class="footer__list _anim-show">
+								<li class="footer__item"><a href="./skateboards.html" class="footer__link">Electric
+										Skateboards</a>
+								</li>
+								<li class="footer__item"><a href="./revs.html" class="footer__link">Electric Scooters</a></li>
+								<li class="footer__item"><a href="index.html#accessories" class="footer__link">Accessories</a>
+								</li>
+								<li class="footer__item"><a href="#" class="footer__link">FAQs</a></li>
+								<li class="footer__item"><a href="#" class="footer__link">Quick Start Guide</a></li>
+								<li class="footer__item"><a href="index.html#manual" class="footer__link">Manual</a></li>
+								<li class="footer__item"><a href="#" class="footer__link">Accessibility Statement</a></li>
+								<li class="footer__item"><a href="#" class="footer__link">Warranty</a></li>
+								<li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__about _anim-items _anim-no-hide">
+						<p class="footer__capture _anim-show">About Boosted&nbsp;USA</p>
+						<div class="footer__text text _anim-show">Boosted empowers people everywhere to commute across their
+							cities,
+							campuses,
+							and
+							communities in ways that were never before possible. Boosted is solving one of the biggest problems
+							people
+							face each day: transportation.</div>
+						<address class="_anim-show">
+							<p>CaliRides LLC - DBA Boosted USA</p>
+							<p>1281 Andersen Drive Ste. K</p>
+							<p>San Rafael, CA </p>
+							<p>94901</p>
+						</address>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="copyright">
+						<span>© 2021</span>
+						<span>Boosted&nbsp;USA</span>
+						<span>All Rights Reserved.</span>
+						<span>Terms of Service</span>
+						<nobr> <span>Build by</span>
+							<span>BH</span>
+						</nobr>
+					</div>
+
+					<div class="companies">
+						<picture>
+							<source srcset="img/companies/company-1.webp" type="image/webp"><img
+								src="img/companies/company-1.png" alt="company">
+						</picture>
+						<picture>
+							<source srcset="img/companies/company-2.webp" type="image/webp"><img
+								src="img/companies/company-2.png" alt="company">
+						</picture>
+						<picture>
+							<source srcset="img/companies/company-3.webp" type="image/webp"><img
+								src="img/companies/company-3.png" alt="company">
+						</picture>
+						<picture>
+							<source srcset="img/companies/company-4.webp" type="image/webp"><img
+								src="img/companies/company-4.png" alt="company">
+						</picture>
+						<picture>
+							<source srcset="img/companies/company-5.webp" type="image/webp"><img
+								src="img/companies/company-5.png" alt="company">
+						</picture>
+						<picture>
+							<source srcset="img/companies/company-6.webp" type="image/webp"><img
+								src="img/companies/company-6.png" alt="company">
+						</picture>
+						<picture>
+							<source srcset="img/companies/company-7.webp" type="image/webp"><img
+								src="img/companies/company-7.png" alt="company">
+						</picture>
+						<picture>
+							<source srcset="img/companies/company-8.webp" type="image/webp"><img
+								src="img/companies/company-8.png" alt="company">
+						</picture>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+	<div id="popup-login" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">✖</button>
+				<div class="popup__title title">Login</div>
+				<div class="popup__field">
+					<span class="popup__label" for="email">Email address*</span>
+					<div class="popup__control">
+						<input type="email" name="email" class="popup__input" tabindex="1" placeholder="Email address">
+					</div>
+				</div>
+				<div class="popup__field">
+					<span class="popup__label" for="password">Password*</span>
+					<div class="popup__control">
+						<input type="password" name="password" class="popup__input" tabindex="2" placeholder="Password">
+					</div>
+				</div>
+				<div class="modal__bottom"> <a href="#" class="popup__button shop" tabindex="3">Login</a>
+					<span class="forgot-psw"><a class="recover-psw" href="#">Forgot your
+							password?</a></span>
+				</div>
+				<p class="register">New Customer?<a href="#"> Sign up</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-ordering" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">✖</button>
+				<div class="popup__title title">Order</div>
+				<div class="order-modal__info">
+					<div class="order-modal__quantity order-modal__info-item">Items in the order: <span></span></div>
+					<div class="order-modal__summ order-modal__info-item">Total amount of the order: <span></span></div>
+					<div class="order-modal__products order-modal__info-item">
+						<input type="checkbox" id="pseudo-btn">
+						<label for="pseudo-btn" class="order-modal__btn">Order list</label>
+
+						<ul class="order-modal__list" data-simplebar>
+							<!-- <li class="order-modal__item">
+							<article class="order-modal__product order-product">
+								<img src="img/revs/rev-1.svg" alt="" class="order-product__img">
+								<div class="order-product__text">
+									<h4 class="order-product__title">Model-1</h4>
+									<span class="order-product__price">1 900 $</span>
+								</div>
+								<button class="order-product__delete">✖</button>
+							</article>
+						</li> -->
+						</ul>
+					</div>
+				</div>
+				<form action="#" class="order-modal__form order">
+					<input type="hidden" name="theme" value="Callback">
+					<input type="hidden" name="admin_email[]" value="login@gmail.com">
+					<input type="hidden" name="form_subject" value="Application from the site">
+					<label class="order__label">
+						<span class="order__text">Name</span>
+						<input type="text" name="Name" class="order__input">
+					</label>
+					<label class="order__label">
+						<span class="order__text">Phone</span>
+						<input type="tel" name="Телефон" class="order__input" placeholder="+3 (___)___-__-__">
+					</label>
+					<label class="order__label">
+						<span class="order__text">Email</span>
+						<input type="email" name="Email" class="order__input" placeholder="post@gmail.com">
+					</label>
+					<button class="order__btn shop">Checkout</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230222210430"></script>
+</body>
+
+</html>
