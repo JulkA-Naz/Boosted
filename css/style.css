@@ -919,7 +919,7 @@ body::after {
   font-size: 13px;
   line-height: 162%;
 }
-
+.footer__link:hover{color:#ff4a32;}
 .footer__about {
   max-width: 380px;
 }
